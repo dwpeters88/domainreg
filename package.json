@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@astrojs/cloudflare": "^12.6.0",
-    "@astrojs/react": "^4.3.0",
+    "@astrojs/preact": "^4.1.0",
     "@hookform/resolvers": "^5.1.1",
     "@tailwindcss/vite": "^4.1.11",
     "@types/react": "^19.1.8",
@@ -20,8 +20,7 @@
     "bcryptjs": "^3.0.2",
     "js-cookie": "^3.0.5",
     "jsonwebtoken": "^9.0.2",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
+    "preact": "^10.26.9",
     "react-hook-form": "^7.59.0",
     "tailwindcss": "^4.1.11",
     "zod": "^3.25.71"

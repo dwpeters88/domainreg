@@ -1,7 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 
-import react from '@astrojs/react';
+import preact from '@astrojs/preact';
 import tailwindcss from '@tailwindcss/vite';
 import cloudflare from '@astrojs/cloudflare';
 
@@ -13,7 +13,7 @@ export default defineConfig({
       enabled: true
     }
   }),
-  integrations: [react()],
+  integrations: [preact()],
 
   vite: {
     plugins: [tailwindcss()],
