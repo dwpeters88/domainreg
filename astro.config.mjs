@@ -16,6 +16,10 @@ export default defineConfig({
   integrations: [react()],
 
   vite: {
-    plugins: [tailwindcss()]
+    plugins: [tailwindcss()],
+    define: {
+      // Define globals for Cloudflare Workers compatibility
+      'global': 'globalThis'
+    }
   }
 });
